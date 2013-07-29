@@ -20,14 +20,12 @@
         <Content type="html"><![CDATA[     
 
 <html>
-
 <body>
 
 <h3>Hangout Drawing Test</h3>
 
+<input class="button" type="button" value="Start drawing!" onClick="alert('yesss!);"/>
 <div id="canvasDiv"></div>
-
-<input class="button" type="button" value="Start drawing!" onClick="hangoutDrawing()"/>
 
 </body>
 ]]>
