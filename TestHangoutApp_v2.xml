@@ -25,7 +25,11 @@
 
 <h3>Hangout Drawing Test</h3>
 
-<script type="text/javascript"> $(document).ready(function() {
+<div id="canvasDiv"></div>
+
+<script type="text/javascript"> $(document).ready(function() { hangoutDrawing(); });</script>
+
+<script>
        // Globant - Proof of Concept: Hangout Drawing App
 // 2013-07-29
 
