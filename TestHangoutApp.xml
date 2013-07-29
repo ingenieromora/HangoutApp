@@ -47,28 +47,15 @@
 <hr>
 
 <script>
-
-
-
-function init() {
-  // When API is ready...                                                         
-  gapi.hangout.onApiReady.add(
-      function(eventObj) {
-        if (eventObj.isApiReady) {
-          var canvas = document.getElementById("e");
-            var context = canvas.getContext("2d");
-            var cat = new Image();
-            cat.src = "https://raw.github.com/gonzazarza/HangoutApp/master/images/google.png";
-            cat.onload = function() {
-              context.drawImage(cat, 0, 0);
-            };
-        }
-      });
-}
-
-// Wait for gadget to load.                                                       
-gadgets.util.registerOnLoadHandler(init);
+        var canvas = document.getElementById("e");
+        var context = canvas.getContext("2d");
+        var cat = new Image();
+        cat.src = "https://raw.github.com/gonzazarza/HangoutApp/master/images/google.png";
+        cat.onload = function() {
+                context.drawImage(cat, 0, 0);
+        };
 </script>
+
 </body>
 ]]>
 </Content>
