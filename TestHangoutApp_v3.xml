@@ -42,9 +42,7 @@
 
 <h3>Globant - Proof of Concept: Hangout Drawing Tool</h3>
 
-<input class="button" type="button" value="Start drawing!" id="fireButton" 
-    style="visibility:hidden;"
-    onClick="alert('iiiiupi!)"/>
+<input class="button" type="button" value="Start drawing!" id="fireButton" onClick="alert('iiiiupi!)"/>
 
 <div id="canvasDiv"></div>
 
