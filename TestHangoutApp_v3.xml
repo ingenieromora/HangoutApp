@@ -44,7 +44,7 @@
 <h3>Globant - Proof of Concept: Hangout Drawing Tool</h3>
 
 <input class="button" type="button" value="Start drawing!" id="fireButton" onClick="hangoutDrawing()"/>
-<input class="button" type="button" value="Clear canvas" id="clearButton" onClick="clearCanvas()"/>
+<input class="button" type="button" value="Clear canvas" id="clearButton" onClick="loadBackgroundImage()"/>
 
 <div id="canvasDiv"></div>
 
@@ -69,9 +69,6 @@ var clickX = new Array();
 var clickY = new Array();
 var clickDrag = new Array();
 
-function clearCanvas(){
-	context.clearRect(0, 0, context.canvas.width, context.canvas.height);
-}
 
 /**
  * Creates the canvas, loads the background image, and enables the canvas drawing tool.
