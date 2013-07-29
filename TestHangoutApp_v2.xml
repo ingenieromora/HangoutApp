@@ -30,7 +30,6 @@
     <div id="canvasDiv"></div>
     <script type="text/javascript"> $(document).ready(function() { hangoutDrawing(); });</script>
   </body>
-</html>
 ]]>
 </Content>
 </Module>
