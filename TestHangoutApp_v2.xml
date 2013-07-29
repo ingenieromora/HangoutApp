@@ -23,8 +23,6 @@
 
 <body>
 
-<script type="text/javascript" src="hangout.js"></script>
-
 <h3>Hangout Drawing Test</h3>
 
 <div id="canvasDiv"></div>
