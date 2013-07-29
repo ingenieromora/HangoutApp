@@ -42,18 +42,14 @@
 
 <h3>Globant - Proof of Concept: Hangout Drawing Tool</h3>
 
+<input class="button" type="button" value="Start drawing!" id="fireButton" 
+    style="visibility:hidden;"
+    onClick="alert('iiiiupi!)"/>
+
 <div id="canvasDiv"></div>
 
-<hr>
-
 <script>
-        var canvas = document.getElementById("test");
-        var context = canvas.getContext("2d");
-        var cat = new Image();
-        cat.src = "https://raw.github.com/gonzazarza/HangoutApp/master/images/google.png";
-        cat.onload = function() {
-                context.drawImage(cat, 0, 0);
-        };
+        
 </script>
 
 </body>
