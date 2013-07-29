@@ -23,14 +23,13 @@
 
 <body>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
 <script type="text/javascript" src="hangout.js"></script>
 
 <h3>Hangout Drawing Test</h3>
 
 <div id="canvasDiv"></div>
 
-<script type="text/javascript"> $(document).ready(function() { hangoutDrawing(); });</script>
+<input class="button" type="button" value="Start drawing!" onClick="hangoutDrawing()"/>
 
 </body>
 ]]>
