@@ -39,18 +39,13 @@
 <body>
 
 <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
+<script src="./hangout.js"></script>
 
 <h3>Globant - Proof of Concept: Hangout Drawing Tool</h3>
 
-<input class="button" type="button" value="Start drawing!" id="fireButton" onClick="salute()"/>
+<input class="button" type="button" value="Start drawing!" id="fireButton" onClick="hangoutDrawing()"/>
 
 <div id="canvasDiv"></div>
-
-<script>
-        function salute(){
-                alert('iiiiupi!');
-        }
-</script>
 
 </body>
 ]]>
