@@ -39,7 +39,6 @@
 <body>
 
 <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
-<script src="./hangout.js"></script>
 
 <h3>Globant - Proof of Concept: Hangout Drawing Tool</h3>
 
