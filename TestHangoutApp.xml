@@ -46,8 +46,6 @@
 
 <hr>
 
-<p><a href="http://developers.google.com/+/hangouts/getting-started">Read the docs</a> to learn more about developing hangouts!</a></p>
-
 <script>
 
 
@@ -60,7 +58,7 @@ function init() {
           var canvas = document.getElementById("e");
             var context = canvas.getContext("2d");
             var cat = new Image();
-            cat.src = "images/google.png";
+            cat.src = "https://raw.github.com/gonzazarza/HangoutApp/master/images/google.png";
             cat.onload = function() {
               context.drawImage(cat, 0, 0);
             };
