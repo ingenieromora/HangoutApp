@@ -40,12 +40,14 @@
 
 <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
-<script src="//www.dropbox.com/s/bmt9au8h068obhj/hangout_drive.js"></script>
+<!--script src="//www.dropbox.com/s/bmt9au8h068obhj/hangout_drive.js"></script-->
 
 <h3>Globant - Proof of Concept: Hangout Drawing Tool</h3>
 
 <div id="canvasDiv"></div>
-<script type="text/javascript"> $(document).ready(function() { hangoutDrawing(); });</script>
+<!--script type="text/javascript"> $(document).ready(function() { hangoutDrawing(); });</script-->
+
+<img src="https://www.dropbox.com/s/bmodhbvvz9dnmka/google.png" alt="some_text">
 
 </body>
 ]]>
