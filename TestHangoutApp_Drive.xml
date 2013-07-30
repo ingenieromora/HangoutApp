@@ -42,7 +42,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
 <!--script src="//www.dropbox.com/s/bmt9au8h068obhj/hangout_drive.js"></script-->
 
-<script src="//drive.google.com/uc?export=view&id=0Bx370lp0ReefSDFHQXdFdEdKSXc"></script>
+<script src="//drive.google.com/uc?export=view&id=0Bx370lp0ReefQmZNaE1sVkRhb1E"></script>
 
 <h3>Globant - Proof of Concept: Hangout Drawing Tool</h3>
 
@@ -50,6 +50,8 @@
 <script type="text/javascript"> $(document).ready(function() { hangoutDrawing(); });</script>
 
 <!--img src="http://drive.google.com/uc?export=view&id=0Bx370lp0ReefbWtJcnBJazRxZG8" alt="some_text"-->
+
+<input class="button" type="button" value="Save!" id="saveBtn" onClick="saveOurCanvas()"/>
 
 </body>
 ]]>
