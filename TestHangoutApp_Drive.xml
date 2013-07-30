@@ -53,6 +53,8 @@
 
 <input class="button" type="button" value="Load!" id="loadBtn" onClick="hangoutDrawing()"/>
 <input class="button" type="button" value="Save!" id="saveBtn" onClick="saveOurCanvas()"/>
+<input class="button" type="button" value="url1" id="urlBtn" onClick="alert(document.URL)"/>
+<input class="button" type="button" value="url2" id="urlBtn" onClick="alert(document.location.pathname)"/>
 
 </body>
 ]]>
