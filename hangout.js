@@ -12,7 +12,7 @@ var canvas;
 var context;
 var canvasWidth = 800;
 var canvasHeight = 400;
-var imageUrl = 'images/google.png';
+var imageUrl = 'http://rawgithub.com/gonzazarza/HangoutApp/master/images/google.png';
 var paint = false;
 var clickX = new Array();
 var clickY = new Array();
